@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1f2937;
+    color: white;
+}
+
+#heading {
+    text-align: center;
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 88vh;
+
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 43em 1em 43em;
+
+}
+#results {
+    display: flex;
+    justify-content: center;
+    padding: 3em 30em 3em 30em;
+    font-size: 24px;
+}
+
+#scores {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 35em 2em 35em;
+}
+#running_score {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 0em 10em 2em 10em;
+}
+
+#container_new_game {
+    display: flex;
+    justify-content: center;
+}
+
+#rock, #paper, #scissors {
+    font-size: 60px;
+    border: none;
+    padding: 40px 47px 40px 47px;
+    border-radius: 10px;
+    background-color: rgb(104, 104, 104);
+    
+}
+
+#container_heading {
+    background-color: black;
+    padding: 1vh 10vh 1vh 10vh;
+}
+
+#new_game {
+    font-size: 30px;
+    border: none;
+    padding: 20px 25px 20px 25px;
+    border-radius: 7px;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
