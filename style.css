@@ -21,13 +21,13 @@ body {
 #buttons {
     display: flex;
     justify-content: space-between;
-    padding: 3em 43em 1em 43em;
+    padding: 3em 15em 1em 15em;
 
 }
 #results {
     display: flex;
     justify-content: center;
-    padding: 3em 30em 3em 30em;
+    padding: 3em 3em 3em 3em;
     font-size: 24px;
 }
 
@@ -35,7 +35,7 @@ body {
     font-size: 20px;
     display: flex;
     justify-content: space-between;
-    padding: 2em 35em 2em 35em;
+    padding: 2em 3em 2em 3em;
 }
 #running_score {
     font-size: 20px;
