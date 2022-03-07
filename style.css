@@ -71,3 +71,16 @@ body {
     background-color: rgb(104, 104, 104);
     color: white;
 }
+
+#rock:hover {
+    background-color: rgb(155, 155, 155);
+    font-size: 70px;
+}
+#paper:hover {
+    background-color: rgb(155, 155, 155);
+    font-size: 70px;
+}
+#scissors:hover {
+    background-color: rgb(155, 155, 155);
+    font-size: 70px;
+}

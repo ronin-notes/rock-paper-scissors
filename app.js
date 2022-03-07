@@ -54,6 +54,18 @@ function playRound(playerSelection) {
     }
 
 }
+
+function testFive() {
+    if(current_score_player==5) {
+        results.textContent = "Congratulations! You Won!";
+    }
+
+    if(current_score_computer==5) {
+        results.textContent = "You lost! Need a little practice?";
+    }
+
+}
+
 const results = document.querySelector("#results");
 const running_score = document.querySelector("#running_score");
 let current_score_player = 0;
@@ -66,19 +78,19 @@ const rock = document.querySelector("#rock");
 rock.addEventListener("click", () => {
     results.textContent = playRound("Rock");
     running_score.textContent = current_score_player + "      :      " + current_score_computer;
-
+    testFive();
 });
 const paper = document.querySelector("#paper");
 paper.addEventListener("click", () => {
     results.textContent = playRound("Paper");
     running_score.textContent = current_score_player + "      :      " + current_score_computer;
-
+    testFive();
 });
 const scissors = document.querySelector("#scissors");
 scissors.addEventListener("click", () => {
     results.textContent = playRound("Scissors");
     running_score.textContent = current_score_player + "      :      " + current_score_computer;
-
+    testFive();
 });
 
 const new_game = document.querySelector("#new_game");
@@ -87,3 +99,5 @@ new_game.addEventListener("click", () => {
     current_score_computer = 0;
     running_score.textContent = current_score_player + "      :      " + current_score_computer;
 })
+
+
